@@ -1,0 +1,67 @@
+.hero{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.93);
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.carzone{
+  color: #ffffff;
+  margin: 10px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav li{
+  margin:15px;
+  color: white;
+}
+.image{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 32px;
+}
+.cont{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  transform: translate(-50%,-10%);
+  font-size: 40px;
+  background-color: rgba(249, 249, 249, 0.678);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 100px;
+}
+
+.cont h1{
+  color: rgba(13, 124, 161, 0.786);
+}
